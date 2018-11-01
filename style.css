@@ -3,8 +3,8 @@
     border: none;
 }
 
-.greetings{
-    font-weight: 400;
+.greetings {
+    font-weight: 300;
 }
 
 p {
@@ -13,7 +13,29 @@ p {
 }
 
 img {
+    max-width: 100%;
+    min-width: 50%;
+}
+
+button.button-outline {
+    border: 1px solid black;
+    color: black;
+}
+
+a.button.button-outline {
+    color: black;
+    border: 1px solid black;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
 
 @media (min-width: 40.0rem) {}
