@@ -13,8 +13,7 @@ p {
 }
 
 img {
-    max-width: 100%;
-    min-width: 50%;
+height: 400px;
 }
 
 button.button-outline {
@@ -36,6 +35,12 @@ footer{
     color: white;
     text-align: center;
     padding: 5px;
+}
+
+.portfolio-pic {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
 }
 
 @media (min-width: 40.0rem) {}
