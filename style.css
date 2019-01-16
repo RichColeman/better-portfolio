@@ -1,3 +1,7 @@
+body {
+    background: whitesmoke;
+}
+
 .button {
     background: blue;
     border: none;
@@ -7,13 +11,19 @@
     font-weight: 300;
 }
 
+.rich-pic{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 p {
     font-size: 1.3em;
     color: black;
 }
 
-img {
-height: 400px;
+figcaption{
+    color: black;
 }
 
 button.button-outline {
@@ -43,10 +53,37 @@ footer{
     border: 1px solid black;
 }
 
-@media (min-width: 40.0rem) {}
+.project-pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 39.9rem) {
+    .rich-pic{
+        min-width: 100%;
+    }
+  
+}
+
+@media (min-width: 40.0rem) {
+    .rich-pic{
+        max-width: 100%;
+    }
+
+}
 
 /* Larger than tablet screen */
-@media (min-width: 80.0rem) {}
+@media (min-width: 80.0rem) {
+    .rich-pic{
+        max-width: 100%;
+    }
+
+}
 
 /* Larger than desktop screen */
-@media (min-width: 120.0rem) {}
+@media (min-width: 120.0rem) {
+    .rich-pic{
+        max-width: 100%;
+    }
+}
